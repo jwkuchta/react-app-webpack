@@ -7,12 +7,17 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
+    ],
+    "plugins": [
+      "syntax-jsx",
+      "@babel/plugin-syntax-jsx"
     ]
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --open --hot",
     "create": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve --open --hot"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +25,8 @@
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.12.1",
     "babel-plugin-syntax-jsx": "^6.18.0",
+    "esri-loader": "^2.16.0",
+    "esri-loader-hooks": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "ts-loader": "^8.0.12",
@@ -27,9 +34,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
+    "@babel/plugin-syntax-jsx": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
     "css-loader": "^5.0.1",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",

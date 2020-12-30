@@ -2056,6 +2056,18 @@ esrecurse@^4.3.0:
   dependencies:
     estraverse "^5.2.0"
 
+esri-loader-hooks@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/esri-loader-hooks/-/esri-loader-hooks-0.2.0.tgz#7588d66d4b677131ba880e8e69ad0a3c2d0f1a92"
+  integrity sha512-JqALqUnrfQIe2+0jCZm/qp/1xFgnVt+fue6p/UIYnpwpnySr+42b67Es9FXBqqzI9psQ6TqrNluS8BK5NRmeOw==
+  dependencies:
+    hooks "^0.3.2"
+
+esri-loader@^2.16.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/esri-loader/-/esri-loader-2.16.0.tgz#995c83f2ae93bdae0e64b36bb821d29dc56c039d"
+  integrity sha512-0lneVO6aizdRFt1mbrOsRgbF/F1v4LBUwKg+kfiBmoGJPf2ATFI/OimBlfeDI6J1rEQiWHi1PsALFCF4yRf2mw==
+
 estraverse@^4.1.1:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
@@ -2479,6 +2491,11 @@ he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+
+hooks@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/hooks/-/hooks-0.3.2.tgz#a31f060c2026cea6cf1ca3eb178430e718e1c4a3"
+  integrity sha1-ox8GDCAmzqbPHKPrF4Qw5xjhxKM=
 
 hpack.js@^2.1.6:
   version "2.1.6"
