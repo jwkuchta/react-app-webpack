@@ -18,6 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.1",
+    "babel-plugin-syntax-jsx": "^6.18.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "ts-loader": "^8.0.12",
